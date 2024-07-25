@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "SenecaDb_owner",
+    "password": "LBOdcYSsUu04",
+    "database": "SenecaDb",
+    "host": "ep-restless-block-a5s4fbxu-pooler.us-east-2.aws.neon.tech",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "SenecaDb_owner",
+    "password": "LBOdcYSsUu04",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "username": "SenecaDb_owner",
+    "password": "LBOdcYSsUu04",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "app.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/app.js"
+      }
+    ],
+    "env": {
+      "DATABASE_URL": "postgres://SenecaDb_owner:LBOdcYSsUu04@ep-restless-block-a5s4fbxu-pooler.us-east-2.aws.neon.tech:5432/SenecaDb"
+    }
+  }
+  
